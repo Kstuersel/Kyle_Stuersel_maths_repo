@@ -1,17 +1,17 @@
 #include <iostream>
-#include <math.h>
+#include <cmath>
 
 using namespace std;
 
-void square(int numToBeSquared);
+void power(int base, int exponent);
 
 int main()
 {
 	cout << "GitHub Test" << endl;
-	square(7);
+	power(7, 2);
 }
 
-void square(int squareNum)
+void power(int base, int exponent)
 {
-	cout << (squareNum * squareNum) << endl;
+	cout << pow(base, exponent) << endl;
 }
